@@ -1,0 +1,28 @@
+ body {
+        font-family: Arial, sans-serif;
+        background: #f8f8f8;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      header,
+      footer {
+        background: #333;
+        color: white;
+        padding: 15px;
+      }
+      .tile {
+        display: inline-block;
+        margin: 20px;
+        padding: 30px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      }
+      .tile:hover {
+        background: #c50505;
+      }
+      h2 {
+        margin: 0;
+      }
